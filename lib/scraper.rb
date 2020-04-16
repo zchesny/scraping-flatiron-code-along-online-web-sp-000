@@ -12,9 +12,9 @@ class Scraper
   end
 
   def make_courses
-    course = Course.new 
-    course.title = title 
-    course.schedule = schedule 
+    course = Course.new
+    course.title = title
+    course.schedule = schedule
     course.description = description
   end
 
